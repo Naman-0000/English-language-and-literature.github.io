@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Hub | Lang & Lit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Vocabulary Hub</h1>
+        <p><a href="index.html" style="color: var(--accent); text-decoration: none; font-weight: bold;">← Back to Home</a></p>
+    </header>
+
+    <main class="container" style="max-width: 1100px;">
+        <div class="welcome-box">
+            <h2>Unit Lexicon</h2>
+            <p>Master these terms to enhance your analysis and writing. Click any row to highlight your current focus.</p>
+        </div>
+
+        <div class="welcome-box" style="margin-top: 20px;">
+    <input type="text" id="vocabSearch" onkeyup="filterTable()" placeholder="Search for a word, synonym, or definition..." style="width: 100%; padding: 15px; border-radius: 8px; border: 1px solid #ddd; font-size: 1rem;">
+</div>
+        <div class="table-container">
+            <table class="vocab-table">
+                <thead>
+                    <tr>
+                        <th>Word & Type</th>
+                        <th>Definition</th>
+                        <th>Synonyms</th>
+                        <th>Antonyms</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Atrophy</strong><br><small>(v./n.)</small></td>
+                        <td>Gradual decline in effectiveness or vigor due to underuse.</td>
+                        <td>Withering, decaying</td>
+                        <td>Strengthening, flourishing</td>
+                        <td><em>"After being out of the gym, my muscles began to atrophy."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bastion</strong><br><small>(n.)</small></td>
+                        <td>A person or institution strongly defending particular principles; a fortified place.</td>
+                        <td>Fortress, stronghold</td>
+                        <td>Weakness, vulnerability</td>
+                        <td><em>"With security at every gate, the school has become a bastion of safety."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Concord</strong><br><small>(n.)</small></td>
+                        <td>Agreement between people or groups.</td>
+                        <td>Treaty, harmony</td>
+                        <td>Conflict, strife</td>
+                        <td><em>"After many wars, both nations signed a treaty and are now at peace and concord."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Consummate</strong><br><small>(adj.)</small></td>
+                        <td>Showing a high degree of skill or flair; complete or perfect.</td>
+                        <td>Expert, masterly</td>
+                        <td>Amateurish, unskilled</td>
+                        <td><em>"The guitarist's performance was a work of consummate skill."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Disarray</strong><br><small>(n.)</small></td>
+                        <td>A state of organization or untidiness.</td>
+                        <td>Disorganization, chaos</td>
+                        <td>Order, organization</td>
+                        <td><em>"The student left the house in total disarray when he was late for his exam."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Exigency</strong><br><small>(n.)</small></td>
+                        <td>An urgent need or demand.</td>
+                        <td>Urgency, pressure</td>
+                        <td>Ease, comfort</td>
+                        <td><em>"The exigency of water in the town required immediate saving methods."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Flotsam</strong><br><small>(n.)</small></td>
+                        <td>Floating debris from a ship that has sunk.</td>
+                        <td>Wreckage, debris</td>
+                        <td>Treasures, assets</td>
+                        <td><em>"After the war, the bastion was a mess of flotsam and wreckage."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Frenetic</strong><br><small>(adj.)</small></td>
+                        <td>Fast and energetic in a rather wild and uncontrolled way.</td>
+                        <td>Frantic, wild</td>
+                        <td>Calm, relaxed</td>
+                        <td><em>"The soldiers were frenetic in their attempt to win the war."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Glean</strong><br><small>(v.)</small></td>
+                        <td>To extract information from various sources bit by bit.</td>
+                        <td>Collect, gather</td>
+                        <td>Scatter, disperse</td>
+                        <td><em>"It took years for the detective to glean the mystery regarding the case."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Grouse</strong><br><small>(v.)</small></td>
+                        <td>To complain pettily; grumble.</td>
+                        <td>Grumble, whine</td>
+                        <td>Compliment, praise</td>
+                        <td><em>"Despite excellent hospitality, there is always one person who likes to grouse."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Incarcerate</strong><br><small>(v.)</small></td>
+                        <td>To imprison or confine.</td>
+                        <td>Jail, lock up</td>
+                        <td>Release, liberate</td>
+                        <td><em>"After the conflict, the losing side was incarcerated."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Incumbent</strong><br><small>(adj.)</small></td>
+                        <td>Necessary for (someone) as a duty or responsibility.</td>
+                        <td>Mandatory, required</td>
+                        <td>Optional, elective</td>
+                        <td><em>"To enter a top university, high academic standing and extracurriculars are incumbent."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jocular</strong><br><small>(adj.)</small></td>
+                        <td>Fond of or characterized by joking; humorous or playful.</td>
+                        <td>Witty, humorous</td>
+                        <td>Solemn, serious</td>
+                        <td><em>"My English teacher is very helpful, jocular, and supportive."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ludicrous</strong><br><small>(adj.)</small></td>
+                        <td>So foolish, unreasonable, or out of place as to be amusing.</td>
+                        <td>Absurd, laughable</td>
+                        <td>Serious, pathetic</td>
+                        <td><em>"The idea that a toddler can drive a car is ludicrous."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mordant</strong><br><small>(adj.)</small></td>
+                        <td>(Especially of humor) having or showing a sharp or critical quality; biting.</td>
+                        <td>Sarcastic, acerbic</td>
+                        <td>Gentle, mild</td>
+                        <td><em>"The critic was very mordant in his review of the play."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nettle</strong><br><small>(v.)</small></td>
+                        <td>To irritate or annoy (someone).</td>
+                        <td>Irritate, vex</td>
+                        <td>Please, delight</td>
+                        <td><em>"The construction noises began to nettle those working from home."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pecuniary</strong><br><small>(adj.)</small></td>
+                        <td>Relating to or consisting of money.</td>
+                        <td>Monetary, financial</td>
+                        <td>Non-monetary</td>
+                        <td><em>"While the company was large, it offered very low pecuniary rewards."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pusillanimous</strong><br><small>(adj.)</small></td>
+                        <td>Showing a lack of courage or determination; timid.</td>
+                        <td>Cowardly, fearful</td>
+                        <td>Brave, courageous</td>
+                        <td><em>"The soldiers mocked the pusillanimous individual who fled the field."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Recumbent</strong><br><small>(adj.)</small></td>
+                        <td>(Especially of a person or human figure) lying down.</td>
+                        <td>Prone, reclining</td>
+                        <td>Upright, standing</td>
+                        <td><em>"During the drill, the soldiers were recumbent to dodge the simulated fire."</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stratagem</strong><br><small>(n.)</small></td>
+                        <td>A plan or scheme, especially one used to outwit an opponent.</td>
+                        <td>Trick, ploy</td>
+                        <td>Honesty, frankness</td>
+                        <td><em>"To win the battle, the commander used a stratagem to outmaneuver the enemy."</em></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <a href="mailto:sanyogita.padhye@edison.k12.nj.us" class="email-float">📧 Email Ms. Padhye</a>
+
+    <script>
+function filterTable() {
+    // Get the search input and the table
+    let input = document.getElementById("vocabSearch");
+    let filter = input.value.toUpperCase();
+    let table = document.querySelector(".vocab-table");
+    let tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows (skipping the header)
+    for (let i = 1; i < tr.length; i++) {
+        let textContent = tr[i].textContent || tr[i].innerText;
+        if (textContent.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+</script>
+</body>
+</html>
